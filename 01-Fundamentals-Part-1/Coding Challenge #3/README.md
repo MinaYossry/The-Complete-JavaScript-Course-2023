@@ -16,8 +16,8 @@ both teams have the same score and both have a score greater or equal 100
 points. Otherwise, no team wins the trophy
 
 # Test data:
-Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
-Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
-Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
+1. Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
+2. Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
+3. Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 
-# GOOD LUCK 
+### GOOD LUCK 
