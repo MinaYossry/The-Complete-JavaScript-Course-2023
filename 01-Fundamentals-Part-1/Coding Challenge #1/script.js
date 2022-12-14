@@ -24,4 +24,4 @@ const johnBMI = johnMass / (johnHeight ** 2);
 
 const markHigherBMI = markBMI > johnBMI;
 
-alert(markHigherBMI);
+console.log(markBMI, johnBMI, markHigherBMI);
