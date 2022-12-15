@@ -21,7 +21,7 @@ resetBtn.addEventListener('click', resetGame);
 
 // Generate random number between [min, max[ exculsive of max
 function generateRandNumber(min, max) {
-  return min + Math.random() * max;
+  return min + Math.random() * (max - min);
 }
 
 // reset the game to the original values be leave the latest highscore
