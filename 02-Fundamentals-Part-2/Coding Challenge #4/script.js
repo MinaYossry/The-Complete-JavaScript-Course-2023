@@ -28,18 +28,18 @@ added together
 length of the array (because that's the number of elements)
 4.3. Call the function with the 'totals' array
 */
-`use strict`
+`use strict`;
+
 function calcTip(bill) {
-    return (bill >= 50 && bill <= 300) ? bill * 0.15 : bill * 0.2;
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 }
 
 function calcAverage(arr) {
-    let sum = 0;
+  let sum = 0;
 
-    for (let i = 0; i < arr.length; i++)
-        sum += arr[i];
+  for (let i = 0; i < arr.length; i++) sum += arr[i];
 
-    return sum / arr.length;
+  return sum / arr.length;
 }
 
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
@@ -47,8 +47,8 @@ const tips = [];
 const total = [];
 
 for (let i = 0; i < bills.length; i++) {
-    tips.push(calcTip(bills[i]));
-    total[i] = bills[i] + tips[i];
+  tips.push(calcTip(bills[i]));
+  total[i] = bills[i] + tips[i];
 }
 console.log(bills);
 console.log(tips);
