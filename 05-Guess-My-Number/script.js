@@ -14,7 +14,7 @@ let secretNumber = Math.floor(generateRandNumber(MIN, MAX));
 let gameFinished = false;
 let score = 20;
 let highScore = 0;
-
+ 
 // add game logic the buttons
 checkBtn.addEventListener('click', checkValue);
 resetBtn.addEventListener('click', resetGame);
