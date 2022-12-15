@@ -50,15 +50,15 @@ function checkValue() {
   }
 }
 
-function setHighScore(currentScore) {
-  if (currentScore > highScore) {
-    highScoreField.textContent = highScore = currentScore;
+function setHighScore() {
+  if (score > highScore) {
+    highScoreField.textContent = highScore = score;
   }
 }
 
 function winGame() {
   messageField.textContent = 'Correct Guess!';
-  setHighScore(score);
+  setHighScore();
   gameFinished = true;
   numberField.textContent = secretNumber;
   document.body.style.backgroundColor = '#60b347';
