@@ -26,14 +26,14 @@ function generateRandNumber(min, max) {
 
 // reset the game to the original values be leave the latest highscore
 function resetGame() {
+  score = 20;
   secretNumber = Math.floor(generateRandNumber(MIN, MAX));
-  scoreField.textContent = 20;
+  scoreField.textContent = score;
   messageField.textContent = 'Start guessing...';
   guessField.value = '';
   numberField.textContent = '?';
   gameFinished = false;
   document.body.style.backgroundColor = '#222';
-  score = 20;
   numberField.style.width = '15rem';
 }
 
